@@ -1,0 +1,57 @@
+.container{
+	margin-top: 40px;
+	width: 1100px;
+}
+
+.inLineControl{
+	float: left;
+}
+
+.displayDateRange{
+	margin-top: 10px;
+}
+
+.chart{
+	margin-top: -10px;
+	height: 600px;
+	background-color: grey;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	direction:rtl;
+}
+
+.addStock{
+	margin-top: 10px;
+}
+
+.stockList{
+	margin-top: 10px;
+	.well{
+		width: 100px;
+	}
+	.well:hover{
+		background-color: #d9534f;
+		color: white;
+	}
+}
+
+.removeStockBtn:hover{
+	background: grey;
+	font-weight: 900;
+}
+
+svg{
+	background-color: lightyellow;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+  :hover{
+  	stroke-width: 3px;
+  }
+}
+
+.dot:hover{
+	r: 6px;
+}
