@@ -1,8 +1,8 @@
-import express from 'express';
-import yahooFinance from 'yahoo-finance'
-import bodyParser from 'body-parser';
-var moment = require('moment');
-import _ from 'lodash';
+const express = require('express');
+const yahooFinance = require('yahoo-finance');
+const bodyParser = require('body-parser');
+const moment = require('moment');
+const _ = require('lodash');
 
 const app = express();
 const server = require('http').createServer(app);
